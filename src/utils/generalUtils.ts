@@ -19,7 +19,7 @@ export const normalizePort = (val: string): boolean | string | number => {
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 /**
- * A wrapper function to handle async errors in route handlers.
+ * A wrapper function to handle async functions in route handlers.
  * @param {Function} fn - The async function to wrap.
  * @returns {Function} The wrapped function.
  */
